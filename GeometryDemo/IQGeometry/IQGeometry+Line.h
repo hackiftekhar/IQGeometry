@@ -1,0 +1,27 @@
+//
+//  IQGeometry+CGLine.h
+//  Geometry Extension
+//
+//  Created by Iftekhar Mac Pro on 8/25/13.
+//  Copyright (c) 2013 Canopus. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+struct IQLine {
+    CGPoint beginPoint;
+    CGPoint endPoint;
+};
+typedef struct IQLine IQLine;
+
+IQLine IQLineMake(CGPoint beginPoint, CGPoint endPoint);
+
+
+
+@interface NSValue (Line)
+
++ (id)valueWithLine:(IQLine)line;
+
+- (IQLine)lineValue;
+
+@end
