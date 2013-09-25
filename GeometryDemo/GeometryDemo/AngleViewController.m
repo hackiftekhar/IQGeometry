@@ -179,7 +179,7 @@
     dummyView.endPoint = angleSecondPoint.center;
 
     
-    dummyView.lines = [[NSArray alloc] initWithObjects:[NSValue valueWithLine:lineFirstPoint],[NSValue valueWithLine:lineSecondPoint],[NSValue valueWithLine:line],nil];
+    dummyView.lines = [[NSArray alloc] initWithObjects:[NSValue valueWithIQLine:lineFirstPoint],[NSValue valueWithIQLine:lineSecondPoint],[NSValue valueWithIQLine:line],nil];
     [dummyView setNeedsDisplay];
 
     CGFloat angle = IQPointGetAngle(centerPoint.center, firstPoint.center, secondPoint.center);

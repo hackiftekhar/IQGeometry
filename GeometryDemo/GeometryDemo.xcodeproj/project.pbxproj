@@ -32,12 +32,30 @@
 		AF3FF7FE17E8B7020032CDF1 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7FC17E8B7020032CDF1 /* TransformViewController.m */; };
 		AF3FF7FF17E8B7020032CDF1 /* TransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3FF7FD17E8B7020032CDF1 /* TransformViewController.xib */; };
 		AF3FF81B17E8BAD00032CDF1 /* DummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF81A17E8BAD00032CDF1 /* DummyView.m */; };
-		AF3FF84917E8E4D60032CDF1 /* blond-woman@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF3FF84817E8E4D50032CDF1 /* blond-woman@2x.jpg */; };
 		AF3FF89517E916340032CDF1 /* BordereView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF89417E916330032CDF1 /* BordereView.m */; };
 		AF9020C717EB214D005FC360 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9020C517EB214D005FC360 /* InfoViewController.m */; };
 		AF9020C817EB214D005FC360 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9020C617EB214D005FC360 /* InfoViewController.xib */; };
 		AF9020CC17EB3526005FC360 /* TransformInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9020CA17EB3526005FC360 /* TransformInfoViewController.m */; };
 		AF9020CD17EB3526005FC360 /* TransformInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9020CB17EB3526005FC360 /* TransformInfoViewController.xib */; };
+		AFA6B12117F2610A00988398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3FF7B817E8A64E0032CDF1 /* Foundation.framework */; };
+		AFA6B12717F2610A00988398 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA6B12517F2610A00988398 /* InfoPlist.strings */; };
+		AFA6B12D17F2619A00988398 /* sample1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFA6B12C17F2619A00988398 /* sample1.jpeg */; };
+		AFA6B12E17F261D900988398 /* IQGeometry+Angle.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7DA17E8A65A0032CDF1 /* IQGeometry+Angle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B12F17F261D900988398 /* IQGeometry+Angle.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7DB17E8A65A0032CDF1 /* IQGeometry+Angle.m */; };
+		AFA6B13017F261D900988398 /* IQGeometry+AffineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7DC17E8A65A0032CDF1 /* IQGeometry+AffineTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13117F261D900988398 /* IQGeometry+AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7DD17E8A65A0032CDF1 /* IQGeometry+AffineTransform.m */; };
+		AFA6B13217F261D900988398 /* IQGeometry+Line.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7DE17E8A65A0032CDF1 /* IQGeometry+Line.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13317F261D900988398 /* IQGeometry+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7DF17E8A65A0032CDF1 /* IQGeometry+Line.m */; };
+		AFA6B13417F261D900988398 /* IQGeometry+Point.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7E017E8A65A0032CDF1 /* IQGeometry+Point.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13517F261D900988398 /* IQGeometry+Point.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7E117E8A65A0032CDF1 /* IQGeometry+Point.m */; };
+		AFA6B13617F261D900988398 /* IQGeometry+Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7E217E8A65A0032CDF1 /* IQGeometry+Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13717F261D900988398 /* IQGeometry+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7E317E8A65A0032CDF1 /* IQGeometry+Rect.m */; };
+		AFA6B13817F261D900988398 /* IQGeometry+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7E417E8A65A0032CDF1 /* IQGeometry+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13917F261D900988398 /* IQGeometry+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7E517E8A65A0032CDF1 /* IQGeometry+Size.m */; };
+		AFA6B13A17F261D900988398 /* IQGeometry+Distance.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7E617E8A65A0032CDF1 /* IQGeometry+Distance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13B17F261D900988398 /* IQGeometry+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3FF7E717E8A65A0032CDF1 /* IQGeometry+Distance.m */; };
+		AFA6B13C17F261D900988398 /* IQGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FF7E817E8A65A0032CDF1 /* IQGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA6B13D17F2622100988398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3FF7BA17E8A64E0032CDF1 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,7 +101,6 @@
 		AF3FF7FD17E8B7020032CDF1 /* TransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransformViewController.xib; sourceTree = "<group>"; };
 		AF3FF81917E8BAD00032CDF1 /* DummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyView.h; sourceTree = "<group>"; };
 		AF3FF81A17E8BAD00032CDF1 /* DummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyView.m; sourceTree = "<group>"; };
-		AF3FF84817E8E4D50032CDF1 /* blond-woman@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blond-woman@2x.jpg"; sourceTree = "<group>"; };
 		AF3FF89317E916320032CDF1 /* BordereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BordereView.h; sourceTree = "<group>"; };
 		AF3FF89417E916330032CDF1 /* BordereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BordereView.m; sourceTree = "<group>"; };
 		AF9020C417EB214D005FC360 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
@@ -92,6 +109,11 @@
 		AF9020C917EB3526005FC360 /* TransformInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformInfoViewController.h; sourceTree = "<group>"; };
 		AF9020CA17EB3526005FC360 /* TransformInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformInfoViewController.m; sourceTree = "<group>"; };
 		AF9020CB17EB3526005FC360 /* TransformInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransformInfoViewController.xib; sourceTree = "<group>"; };
+		AFA6B12017F2610A00988398 /* IQGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = IQGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA6B12417F2610A00988398 /* IQGeometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IQGeometry-Info.plist"; sourceTree = "<group>"; };
+		AFA6B12617F2610A00988398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFA6B12817F2610A00988398 /* IQGeometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		AFA6B12C17F2619A00988398 /* sample1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +128,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFA6B11A17F2610A00988398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA6B13D17F2622100988398 /* CoreGraphics.framework in Frameworks */,
+				AFA6B12117F2610A00988398 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -114,6 +145,7 @@
 			children = (
 				AF3FF7D917E8A65A0032CDF1 /* IQGeometry */,
 				AF3FF7BC17E8A64E0032CDF1 /* GeometryDemo */,
+				AFA6B12217F2610A00988398 /* IQGeometry */,
 				AF3FF7B517E8A64E0032CDF1 /* Frameworks */,
 				AF3FF7B417E8A64E0032CDF1 /* Products */,
 			);
@@ -123,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				AF3FF7B317E8A64E0032CDF1 /* GeometryDemo.app */,
+				AFA6B12017F2610A00988398 /* IQGeometry.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,7 +174,7 @@
 		AF3FF7BC17E8A64E0032CDF1 /* GeometryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AF3FF84817E8E4D50032CDF1 /* blond-woman@2x.jpg */,
+				AFA6B12C17F2619A00988398 /* sample1.jpeg */,
 				AF3FF7FA17E8B65E0032CDF1 /* ViewControllers */,
 				AF3FF7C517E8A64E0032CDF1 /* AppDelegate.h */,
 				AF3FF7C617E8A64E0032CDF1 /* AppDelegate.m */,
@@ -214,7 +247,43 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		AFA6B12217F2610A00988398 /* IQGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				AFA6B12317F2610A00988398 /* Supporting Files */,
+			);
+			path = IQGeometry;
+			sourceTree = "<group>";
+		};
+		AFA6B12317F2610A00988398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFA6B12417F2610A00988398 /* IQGeometry-Info.plist */,
+				AFA6B12517F2610A00988398 /* InfoPlist.strings */,
+				AFA6B12817F2610A00988398 /* IQGeometry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFA6B11B17F2610A00988398 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA6B12E17F261D900988398 /* IQGeometry+Angle.h in Headers */,
+				AFA6B13017F261D900988398 /* IQGeometry+AffineTransform.h in Headers */,
+				AFA6B13217F261D900988398 /* IQGeometry+Line.h in Headers */,
+				AFA6B13417F261D900988398 /* IQGeometry+Point.h in Headers */,
+				AFA6B13617F261D900988398 /* IQGeometry+Rect.h in Headers */,
+				AFA6B13817F261D900988398 /* IQGeometry+Size.h in Headers */,
+				AFA6B13A17F261D900988398 /* IQGeometry+Distance.h in Headers */,
+				AFA6B13C17F261D900988398 /* IQGeometry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AF3FF7B217E8A64E0032CDF1 /* GeometryDemo */ = {
@@ -233,6 +302,27 @@
 			productName = GeometryDemo;
 			productReference = AF3FF7B317E8A64E0032CDF1 /* GeometryDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AFA6B11F17F2610A00988398 /* IQGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA6B12B17F2610A00988398 /* Build configuration list for PBXNativeTarget "IQGeometry" */;
+			buildPhases = (
+				AFA6B11817F2610A00988398 /* ShellScript */,
+				AFA6B11917F2610A00988398 /* Sources */,
+				AFA6B11A17F2610A00988398 /* Frameworks */,
+				AFA6B11B17F2610A00988398 /* Headers */,
+				AFA6B11C17F2610A00988398 /* Resources */,
+				AFA6B11D17F2610A00988398 /* ShellScript */,
+				AFA6B11E17F2610A00988398 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQGeometry;
+			productName = IQGeometry;
+			productReference = AFA6B12017F2610A00988398 /* IQGeometry.framework */;
+			productType = "com.apple.product-type.framework.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -256,6 +346,7 @@
 			projectRoot = "";
 			targets = (
 				AF3FF7B217E8A64E0032CDF1 /* GeometryDemo */,
+				AFA6B11F17F2610A00988398 /* IQGeometry */,
 			);
 		};
 /* End PBXProject section */
@@ -272,13 +363,63 @@
 				AF3FF7D317E8A64E0032CDF1 /* ViewController.xib in Resources */,
 				AF3FF7F417E8A8A80032CDF1 /* AngleViewController.xib in Resources */,
 				AF3FF7FF17E8B7020032CDF1 /* TransformViewController.xib in Resources */,
-				AF3FF84917E8E4D60032CDF1 /* blond-woman@2x.jpg in Resources */,
 				AF9020C817EB214D005FC360 /* InfoViewController.xib in Resources */,
 				AF9020CD17EB3526005FC360 /* TransformInfoViewController.xib in Resources */,
+				AFA6B12D17F2619A00988398 /* sample1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA6B11C17F2610A00988398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA6B12717F2610A00988398 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFA6B11817F2610A00988398 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		AFA6B11D17F2610A00988398 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		AFA6B11E17F2610A00988398 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF3FF7AF17E8A64E0032CDF1 /* Sources */ = {
@@ -305,6 +446,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFA6B11917F2610A00988398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA6B12F17F261D900988398 /* IQGeometry+Angle.m in Sources */,
+				AFA6B13117F261D900988398 /* IQGeometry+AffineTransform.m in Sources */,
+				AFA6B13317F261D900988398 /* IQGeometry+Line.m in Sources */,
+				AFA6B13517F261D900988398 /* IQGeometry+Point.m in Sources */,
+				AFA6B13717F261D900988398 /* IQGeometry+Rect.m in Sources */,
+				AFA6B13917F261D900988398 /* IQGeometry+Size.m in Sources */,
+				AFA6B13B17F261D900988398 /* IQGeometry+Distance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -324,6 +479,14 @@
 			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
+		AFA6B12517F2610A00988398 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA6B12617F2610A00988398 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -331,6 +494,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7s,
+					armv7,
+					i386,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -355,6 +523,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -362,6 +531,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7s,
+					armv7,
+					i386,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -380,6 +554,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Release;
 		};
@@ -407,6 +582,48 @@
 			};
 			name = Release;
 		};
+		AFA6B12917F2610A00988398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					i386,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQGeometry/IQGeometry-Prefix.pch";
+				INFOPLIST_FILE = "IQGeometry/IQGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AFA6B12A17F2610A00988398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					i386,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQGeometry/IQGeometry-Prefix.pch";
+				INFOPLIST_FILE = "IQGeometry/IQGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +641,15 @@
 			buildConfigurations = (
 				AF3FF7D717E8A64E0032CDF1 /* Debug */,
 				AF3FF7D817E8A64E0032CDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA6B12B17F2610A00988398 /* Build configuration list for PBXNativeTarget "IQGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA6B12917F2610A00988398 /* Debug */,
+				AFA6B12A17F2610A00988398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

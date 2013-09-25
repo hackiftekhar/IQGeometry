@@ -3,7 +3,7 @@
 //  Geometry Extension
 //
 //  Created by Iftekhar Mac Pro on 8/25/13.
-//  Copyright (c) 2013 Canopus. All rights reserved.
+//  Copyright (c) 2013 Iftekhar. All rights reserved.
 //
 
 #import "IQGeometry+Line.h"
@@ -17,7 +17,7 @@ IQLine IQLineMake(CGPoint beginPoint, CGPoint endPoint)
 
 @implementation NSValue (Line)
 
-+ (id)valueWithLine:(IQLine)line
++ (id)valueWithIQLine:(IQLine)line
 {
     return [NSValue value:&line withObjCType:@encode(IQLine)];
 }

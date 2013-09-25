@@ -44,6 +44,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{10, 439}, {150, 21}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="45917630"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -51,7 +52,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Radian</string>
+								<string key="IBUIText">Angle in Radian</string>
 								<object class="NSColor" key="IBUITextColor" id="880107762">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -75,6 +76,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{280, 0}, {40, 20}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="1031135609"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -103,6 +105,8 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{205, 439}, {105, 21}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -129,6 +133,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{10, 410}, {150, 21}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="970897844"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -149,6 +154,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{205, 410}, {105, 21}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="1013389479"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -169,6 +175,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{10, 381}, {187, 21}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="1022833502"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -196,6 +203,7 @@
 								<int key="NSvFlags">301</int>
 								<string key="NSFrame">{{205, 381}, {105, 21}}</string>
 								<reference key="NSSuperview" ref="864956821"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="411473276"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -214,6 +222,7 @@
 						</array>
 						<string key="NSFrameSize">{320, 460}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="991035966"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -228,6 +237,7 @@
 				</array>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="864956821"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -406,7 +416,55 @@
 			<nil key="sourceID"/>
 			<int key="maxID">39</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">AngleViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="dummyView">DummyView</string>
+						<string key="labelDegree">UILabel</string>
+						<string key="labelDistance">UILabel</string>
+						<string key="labelPointDistance">UILabel</string>
+						<string key="labelRadian">UILabel</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="dummyView">
+							<string key="name">dummyView</string>
+							<string key="candidateClassName">DummyView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="labelDegree">
+							<string key="name">labelDegree</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="labelDistance">
+							<string key="name">labelDistance</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="labelPointDistance">
+							<string key="name">labelPointDistance</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="labelRadian">
+							<string key="name">labelRadian</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/AngleViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">DummyView</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/DummyView.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

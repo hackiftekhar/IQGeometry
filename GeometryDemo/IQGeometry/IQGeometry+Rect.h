@@ -3,7 +3,7 @@
 //  Geometry Extension
 //
 //  Created by Iftekhar Mac Pro on 8/25/13.
-//  Copyright (c) 2013 Canopus. All rights reserved.
+//  Copyright (c) 2013 Iftekhar. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
