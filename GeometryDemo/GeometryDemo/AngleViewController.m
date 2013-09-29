@@ -171,7 +171,7 @@
 
     centroidPoint.center = IQPointCentroidOfPoints([NSArray arrayWithObjects:[NSValue valueWithCGPoint:centerPoint.center],[NSValue valueWithCGPoint:firstPoint.center],[NSValue valueWithCGPoint:secondPoint.center], nil]);
 
-    angledPoint.center = IQPointRorate(centerPoint.center, firstPoint.center, IQDegreeToRadian(10));
+    angledPoint.center = IQPointRotate(centerPoint.center, firstPoint.center, IQDegreeToRadian(10));
     
     
     dummyView.centerPoint = centerPoint.center;
@@ -186,7 +186,7 @@
     CGFloat distance = IQPointGetDistance(intersectFirstPoint.center, intersectSecondPoint.center);
     CGFloat distanceOfPoint = IQPointGetDistanceOfPoint(centerPoint.center, line);
 
-    labelDegree.center = IQPointGetMidPoint(centerPoint.center, IQPointRorate(centerPoint.center, angleFirstPoint.center, angle/2));
+    labelDegree.center = IQPointGetMidPoint(centerPoint.center, IQPointRotate(centerPoint.center, angleFirstPoint.center, angle/2));
     
     labelPointDistance.text = [NSString stringWithFormat:@"%.2f",distanceOfPoint];
     labelDistance.text = [NSString stringWithFormat:@"%.2f",distance];

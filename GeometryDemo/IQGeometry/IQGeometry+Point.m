@@ -67,7 +67,7 @@ CGPoint IQPointCentroidOfPoints(NSArray* points)
     return CGPointMake(x, y);
 }
 
-CGPoint IQPointRorate(CGPoint basePoint, CGPoint point, CGFloat angle)
+CGPoint IQPointRotate(CGPoint basePoint, CGPoint point, CGFloat angle)
 {
     CGFloat x = cos(angle) * (point.x-basePoint.x) - sin(angle) * (point.y-basePoint.y) + basePoint.x;
     CGFloat y = sin(angle) * (point.x-basePoint.x) + cos(angle) * (point.y-basePoint.y) + basePoint.y;

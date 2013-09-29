@@ -34,7 +34,7 @@ CGFloat IQPointGetDistanceOfPoint(CGPoint point, IQLine line);
 /* Centroid of points, A, B and C is (x1+x2+x3)/3, (y1+y2+y3)/3 */
 CGPoint IQPointCentroidOfPoints(NSArray* points);
 
-CGPoint IQPointRorate(CGPoint basePoint,CGPoint point, CGFloat angle);
+CGPoint IQPointRotate(CGPoint basePoint,CGPoint point, CGFloat angle);
 
 CGPoint IQPointGetNearPoint(CGPoint basePoint, NSArray *points);
 
