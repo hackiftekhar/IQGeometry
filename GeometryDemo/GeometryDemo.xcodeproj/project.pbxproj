@@ -331,7 +331,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = Canopus;
+				ORGANIZATIONNAME = Iftekhar;
 			};
 			buildConfigurationList = AF3FF7AE17E8A64E0032CDF1 /* Build configuration list for PBXProject "GeometryDemo" */;
 			compatibilityVersion = "Xcode 3.2";
